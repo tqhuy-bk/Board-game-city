@@ -1,0 +1,234 @@
+.titile__{
+    height: 120px;
+    font-size: 20px;
+    background-color: #fafafa;
+    color:#7b7b7b;
+ }
+ .tittle-content{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-left: 60px;
+    padding-top: 50px;
+ }
+ .card-product {
+    margin: 2rem auto;
+    /* box-shadow: 0px 6px 6px rgb(0 0 0 / 30%) !important; */
+    padding: 20px;
+    background-color: #fff;
+    width: 80%;
+ }
+ /*.card__title {
+    display: flex;
+    align-items: center;
+    padding: 30px 40px;
+ }
+ */
+ .card__title h3 {
+    text-align: right;
+    margin: 0;
+    color: #252525;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 10%;
+ }
+ /*.card__title .icon {
+    width: 85%;
+    background: #115dd8;
+    padding: 10px 10px;
+    transition: 200ms;
+    cursor: pointer;
+ }*/
+ .card__title .icon:hover {
+    background: #252525;
+ }
+ .card__title .icon i {
+    color: #fff;
+ }
+ .card__body {
+    display: flex;
+    flex-flow: row no-wrap;
+    margin-bottom: 25px;
+ }
+ .modal-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.233);
+ }
+ .card__body-left {
+    width: 40%;
+    height: auto;
+ }
+ .card__body-right {
+    padding-left: 50px;
+    width: 60%;
+    position: relative;
+ }
+  
+ .card__body-right--a {
+   padding-left: 26px;
+   padding-right: 11px;
+ }
+ /*---------------           */
+ .feature{
+    margin-top: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .feature i{
+    color:#be0505 ;
+ }
+ .bb{
+    border-top: dashed 1px #d1d1d1;
+    border-bottom: dashed 1px #d1d1d1;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    min-width: 145px;
+    padding-left: 15px;
+    width: 50%;
+ }
+ .bb i {
+    margin-right: 15px;
+    display: inline-block;
+    width: 16px;
+ }
+ .bb1{
+    font-family: SFUIDisplay;
+    font-size: 16px;
+    color: #848484;
+ }
+ .bb2{
+    font-family: SFUIDisplay;
+    font-size: 17px;
+    font-weight: 600;
+    color: #4a4a4a;
+ }
+ /*-------------*/
+ .delivery span {
+    margin-left: 15px;
+ }
+ .delivery i {
+    color: #be0505;
+ }
+ .delivery li {
+    font-family: SFUIDisplay;
+    font-size: 16px;
+    color: #848484;
+ }
+ .card__body-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+ .modal-name {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-style: italic;
+    color: #E5707E;
+    font-family: 'Satisfy', cursive;
+    padding-top: 10px;
+ }
+ .desc{
+    margin-top: 20px;
+    font-size: 18px;
+ }
+ /*.modal-list li span {
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px 0;
+    display: block;
+ }*/
+ span.stock {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: #a1cc16;
+ }
+ .reviews .stars {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+ }
+ .reviews .stars>li {
+    display: inline-block;
+ }
+ .reviews .stars>span {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    margin-left: 5px;
+    color: #555;
+ }
+ .reviews .stars>li i {
+    color: #f7c01b;
+ }
+ .indicator {
+    position: relative;
+    width: 802px;
+    height: 3px;
+    background-color: #f1f1f1;
+    margin: 0 auto;
+ }
+ .indicator::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #115dd8;
+    width: 200px;
+    height: 100%;
+ }
+ .card__bottom {
+    margin-top: 30px;
+    display: flex;
+    padding: 0 40px;
+ }
+ .card__bottom a {
+    color: #115dd8;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+ }
+ 
+ .single-line{
+    margin-top: 18px;
+    margin-bottom: 17px;
+    width: 589px;
+    height: 2px;
+    border-bottom: dashed 2px #d1d1d1;
+ }
+ .card_btn-addtocart {
+    cursor: pointer;
+    transition: 200ms;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 0.8rem;
+    background-color: #E6B566;
+    width: 200px;
+    text-align: center;
+    /* margin-top: 15px; */
+ }
+ .card_btn-addtocart:hover {
+    background-color: #f5d5a1;
+ }
+ .related-products {
+    margin-top: 100px;
+ }
+ .related-products h2 {
+    display: block;
+    margin: 32px 0;
+    font-size: 20px;
+    line-height: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #080808;
+ }
+ .detail_product-rented{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+ }

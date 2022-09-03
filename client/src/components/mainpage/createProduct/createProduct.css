@@ -1,0 +1,227 @@
+.create-product{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 40px 0;
+ }
+ 
+ .cp-image-upload-box {
+    
+    width: 300px;
+    height: 300px;
+    border: 1px solid #999;
+    position: relative;
+    padding: 0px;
+    border-radius: 5px;
+ }
+ 
+ #file_up {
+    position: relative;
+    width: 100%;
+    height: 100%;
+ }
+ 
+ #file_up::before {
+    content: '+';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    top: 0;
+    left: 0;
+    text-align: center;
+    align-content: center;
+    color: #E6B566;
+    font-size: 15rem;
+    cursor: pointer;
+    margin: auto;
+    border-radius: 5px;
+ }
+ 
+ .cp-image-upload {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+ }
+ 
+ .cp-image-button {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    right: -10px;
+    top: -10px;
+    border: 1px solid #555;
+    color: var(--color-primary);
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+ }
+ 
+ .cp-button {
+    padding: 10px 30px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: #E6B566;
+    border-radius: 5px;
+ }
+ 
+ .cp-button:hover {
+    background-color: #5a5a5a;
+ }
+ 
+ .cp-button:focus {
+    outline: none;
+ }
+ 
+ .cp-loading-image {
+    width: 100px;
+    height: 100px;
+    margin: 50px auto;
+ }
+ 
+ .cp-loading-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+ 
+ .div-form{
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    width: 800px;
+ }
+ 
+ .form-create-edit > *{
+    display: grid;
+    grid-template-columns: 0.175fr 1fr;
+ }
+ 
+ 
+ #ten{
+    display: grid;
+    grid-template-columns: 0.8fr 0.5fr;
+ }
+ 
+ .ten-cate{
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+ }
+ 
+ #name{
+    width: 300px;
+ }
+ 
+ #price{
+    width: 245px;
+ }
+ 
+ #waist{
+    width: 60px;
+ }
+ 
+ #bust{
+    width: 60px;
+ }
+ 
+ #japanName{
+    width: 200px;
+ }
+ 
+ .motcaidivtodung{
+    display: grid;
+    grid-template-columns: 270px 170px 215px 0.1fr;
+ }
+ 
+ .motcaidivtodung > div:nth-child(1){
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    width: 270px;
+ }
+ 
+ .motcaidivtodung > div:nth-child(2){
+    display: grid;
+    grid-template-columns: 0.5fr 0.4fr;
+    width: 170px;
+ }
+ 
+ .motcaidivtodung > div:nth-child(3){
+    display: grid;
+    grid-template-columns: 0.5fr 0.4fr;
+    width: 250px;
+ }
+ 
+ #japanName{
+    width: 80px;
+ }
+ 
+ #hip{
+    width: 60px;
+ }
+ 
+ #height{
+    width: 60px;
+ }
+ 
+ .motcaidivvuavua{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ }
+ 
+ .motcaidivvuavua > div:nth-child(1){
+    display: grid;
+    grid-template-columns: 0.275fr 0.5fr;
+    width: 425px;
+ }
+ 
+ .motcaidivvuavua > div:nth-child(2){
+    display: grid;
+    grid-template-columns: 0.385fr 0.25fr;
+ }
+ 
+ #category{
+    margin-left: 20px;
+ }
+ 
+ .div-form > form label{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+ }
+ 
+ .motcaidivtodung > div:nth-child(4){
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+ }
+ 
+ .div-form > form > button{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: black;
+    display: block;
+    text-align: center;
+ }
+ 
+ .div-form > form > div:nth-child(2) > div.mb-3{
+    display: grid;
+    grid-template-columns: 0.885fr 0.4fr;
+    width: 375px;
+ }
+ 
+ .div-form > form > div:nth-child(2) > div:nth-child(2){
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+ }
