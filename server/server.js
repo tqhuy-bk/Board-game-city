@@ -34,8 +34,8 @@ app.listen(port, () => {
     console.log(`App listening on port ${port}`);
 });
 
-app.use('/user', require('../routers/users.route'));
-app.use('/api', require('../routers/category.route'));
-app.use('/api', require('../routers/upload'));
-app.use('/api', require('../routers/products.route'));
-app.use('/api', require('../routers/payments.route'));
+app.use('/user', require('./routers/users.route'));
+app.use('/api', require('./routers/category.route'));
+app.use('/api', require('./routers/upload'));
+app.use('/api', require('./routers/products.route'));
+app.use('/api', require('./routers/payments.route'));
